@@ -43,8 +43,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-<<<<<<< HEAD
-gem "loofah", ">= 2.2.3"
-=======
-gem "loofah", ">= 2.2.3"
->>>>>>> modeling-users
+gem 'loofah', '~> 2.0', '>= 2.0.3'
